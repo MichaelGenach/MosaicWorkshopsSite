@@ -1,0 +1,221 @@
+#main {
+    position: absolute;
+    top: 0;
+    background-color: #333333;
+    overflow: hidden;
+    width: 100%;
+}
+
+.title {
+    font-size: 4vw; /* Responsive font size */ color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#titleh2{ font-size: 2vw; /* Responsive font size */ color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+
+
+.frontTitleDiv {
+    position: absolute;
+    top: 0;
+    height: 20vw;
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.child {
+    flex: 1;
+}
+
+.z {
+    z-index: 4;
+}
+
+#intro {
+position: relative;
+left: 55vw;
+top: 20vw;
+width: 50vw;
+}
+
+.buttons {
+    background-color: rgb(255, 132, 0);
+    border-radius: 8px;
+    height: 5vw; /* Responsive height */
+    width: 15vw; /* Responsive width */
+    font-size: 2vw; /* Responsive font size */
+    color: white;
+    border-color: transparent;
+    transition: 0.3s;
+    margin-bottom: 2vw; /* Responsive margin */
+}
+
+.buttons:hover {
+    background-color: rgb(254, 153, 0);
+}
+
+#table1, #table2 {
+    font-size: 2vw; /* Responsive font size */
+    color: white;
+    transition: 0.3s;
+    text-decoration: underline orange;
+}
+
+#table1:hover, #table2:hover {
+    color: orange;
+}
+
+#tableDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    margin: 2vw; /* Responsive margin */
+}
+
+#images1 {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+    padding-left: 2vw; /* Responsive padding */
+    position: relative;
+    left: 2vw; /* Responsive position */
+}
+
+#img1, #img2 {
+    width: 40%;
+}
+
+.s {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%; /* Responsive padding */
+    padding-right: 5%; /* Responsive padding */
+    align-items: center;
+}
+
+#h12{width: 20vw; position: relative; right: 8vw;}
+
+#h22{width: 20vw; position: relative; right: 7.5vw;}
+
+#s41{ position: relative;
+    left: 4vw;}
+
+#s42{width: 20vw; position: relative; left: 3vw;}
+
+#s52{width: 20vw; position: relative; right: 2vw;}
+
+#s61 {
+    position: relative;
+    left: 2vw;
+}
+
+#s62{position: relative; left: 4vw;}
+
+.h4 {
+    color: white;
+    font-size: 2vw; /* Responsive font size */
+}
+
+.h5 {
+    color: white;
+    font-size: 2vw;
+}
+
+#line1, #line2, #line3, #line4, #line5, #line6 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    width: 100%;
+    border-top: 1px solid grey;
+}
+
+#divh5, #div51 {
+    width: 20vw; /* Responsive width */
+    font-size: 1.5vw; /* Responsive font size */
+}
+
+#item {
+    height: 40vw; /* Responsive height */
+    min-width: 30vw; /* Responsive min width */
+    padding: 1vw; /* Responsive padding */
+}
+
+#item img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#innerCarusel {
+    display: flex;
+    background: #333333;
+}
+
+#carusel {
+    cursor: grab;
+    overflow: hidden;
+}
+
+#caruselDiv {
+    height: fit-content;
+}
+
+.white {
+    color: white;
+    font-size: 2vw;
+}
+
+#contactHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#whatsAppHome {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 1vw; /* Responsive position */
+    font-size: 1.5vw; /* Responsive font size */
+}
+
+#whatsAppDivHome {
+    height: 5vw; /* Responsive height */
+    width: 17vw; /* Responsive width */
+    background-color: #25D366;
+    border-radius: 50px;
+    margin-bottom: 5vw; /* Responsive margin */
+}
+
+#video1Div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#video1 {
+    width: 100%;
+    height: 56vw;
+    object-fit: cover;
+    
+}
+
+#overlay {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 52vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2vw; /* Responsive padding */
+}
