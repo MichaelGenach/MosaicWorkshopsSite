@@ -1,0 +1,287 @@
+.white {
+    color: white;
+    font-size: 4vh;
+}
+
+#contact {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#eich {
+    width: 50%;
+    color: white;
+}
+
+#arriveText{
+    color: white;
+    font-size: 18px;
+    direction: rtl;
+}
+
+
+
+#lifratim {
+
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #eich {
+        min-width: 95%;
+    }
+
+    #lifratim {
+        font-size: smaller;
+        color: white;
+    }
+    #iframe{
+    width: 90%;
+    }
+}
+
+
+#yezirat {
+    font-family: serif;
+    color: orange;
+    font-size: 10vh;
+}
+
+#pratim {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.wwi {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15%;
+
+}
+
+#emailInfo{
+    margin-left: 6vw;
+    margin-right: 5vw;
+}
+
+#whatsApp {
+
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+
+}
+
+#whatsApp:hover {
+    color: #25D366;
+
+}
+
+
+#waze {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+    top: 5px;
+}
+
+#waze:hover {
+    color: #33CCFF
+}
+
+#instagram {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    position: relative;
+    top: 7px;
+    right: 13px;
+}
+
+
+#instagram:hover {
+    color: #ff69b4;
+    /* ורוד בהיר */
+}
+
+@media only screen and (max-width: 768px) {
+    #pratim {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      
+    }
+
+    .wwi {
+        width: 100%;
+        justify-content: center;
+        position: relative;
+        top: 2vh
+    }
+
+    #whatsApp {
+        margin-left: 7.5vw;
+        margin-right: 8vw;
+
+    }
+}
+
+
+/* #whatsAppAndWazeDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  position: relative;
+  bottom: 37px;
+
+
+} */
+
+.con {
+    color: orange;
+    transition: 0.3s;
+}
+
+.con:hover {
+    color: rgb(255, 186, 82)
+}
+
+.con:visited {
+    color: #33CCFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.formContainer {
+
+    width: 100%;
+
+  
+    display: flex;
+    justify-content: center;
+ 
+}
+
+@media only screen and (max-width: 768px) {
+    .formContainer {
+
+        width: 95%;
+    }
+}
+
+
+.heading {
+    text-align: center;
+    color: black;
+
+    font-size: 1.5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .form {
+        width: 80%;
+    }
+}
+
+#bla {
+width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+
+
+}
+
+.label {
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.input,
+.textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid white;
+font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+    color: white;
+    background-color: transparent;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+
+.input:focus,
+.textarea:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+.textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color:darkorange;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width:90%;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.successMessage {
+    margin-top: 20px;
+    color: lightgreen;
+    text-align: center;
+    font-size: 1rem;
+}

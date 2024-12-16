@@ -1,0 +1,177 @@
+#mainDivPottery {
+
+    position: absolute;
+    top: 0;
+    background-color: #333333;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+#threePotteryVideos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#video9 {
+    height: 568px;
+    margin: 10px;
+}
+
+#video12 {
+    height: 568px;
+margin: 10px;
+}
+
+#video13 {
+    height: 568px;
+}
+
+
+
+#innerCaruselPottery {
+    display: inline-flex;
+    animation: scroll 120s linear infinite;
+    background: #333333;
+   
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(50%);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(50%);
+    }
+}
+
+
+
+#textPhoto161 {
+    color: white;
+font-size: 3vh;
+}
+
+#textPhoto174{
+    color: white;
+    font-size: 3vh; 
+    margin-top: 10vh; 
+}
+
+#photo161 {
+    width: 110vh;
+}
+
+#photo174 {
+    width: 110vh;
+    ;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+
+    #video12 {
+        height: 50vh;
+        margin: 5px;
+
+    }
+
+    #video13 {
+        height: 50vh;
+    }
+
+    #photo161 {
+        width: 50vh;
+    }
+    
+    #photo174 {
+        width: 50vh;
+        ;
+    
+    }
+
+    #innerCaruselPottery {
+        animation: scroll 90s linear infinite;
+     
+       
+    }
+
+}
+
+
+
+
+
+
+
+#explainPotteryText {
+    max-width: 50%; 
+  text-align: right;
+    color: white;
+    margin: auto;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    border-radius: 10px;
+    box-sizing: border-box;
+   direction: rtl;
+    padding: 10px; /* רווח פנימי */
+    font-size: 3vh;
+
+}
+
+/* עבור מסכים קטנים */
+@media (max-width: 768px) {
+    #explainPotteryText {
+        min-width: 90%; /* הגבלת הרוחב ל-90% במסכים קטנים */
+ 
+
+    }
+
+    #caruselPottery {
+    cursor: none;
+    overflow: hidden;
+}
+}
+
+#caruselDivPottery {
+    height: fit-content;
+}
+
+#caruselPottery {
+    cursor: grab;
+    overflow: hidden;
+}
+
+#innerCaruselPottery {
+    display: flex;
+    background: #333333;
+}
+
+#itemPottery img {
+    width: fit-content;
+    height: 100%;
+    pointer-events: none;
+    padding: 0;
+}
+
+#itemPottery {
+    height: 40vh;
+    /* Responsive height */
+    min-width: 30vh;
+    /* Responsive min width */
+
+    /* Responsive padding */
+}
+
+.textPhotoContainerPottery{
+    margin-top: 15vh;
+}

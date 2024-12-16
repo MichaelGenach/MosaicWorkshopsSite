@@ -1,0 +1,239 @@
+#mainDivCompany {
+
+    position: absolute;
+    top: 0;
+    background-color: #333333;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+#twoCompanyVideos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#video10{
+height: 60vh;
+margin: 10px;
+}
+#video14{
+    height: 60vh;
+}
+
+
+#textCompany {
+    position: relative;
+    top: 80px;
+}
+
+
+
+#photo58Div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+
+}
+
+#textPhoto58 {
+    color: white;
+    
+    font-family: sans-serif
+}
+
+
+
+
+
+#photo45Div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+
+
+}
+
+#textPhoto45 {
+    color: white;
+    font-size: 4vw;
+    font-family: sans-serif
+}
+
+
+
+
+#photo50Div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+    margin-bottom: 200px;
+    margin-top: 10vh;
+
+}
+
+.textPhotoC {
+    color: white;
+    font-family: sans-serif
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .textPhotoC {
+        color: white;
+        font-size: 4vh;
+        font-family: sans-serif
+    }
+
+    #photo50 {
+       min-width: 90%;
+    }
+    
+    #photo58 {
+        min-width: 90%;
+    }
+
+    #photo46 {
+        min-width: 75%;
+    }
+    
+  }
+
+
+
+#photo50 {
+    max-width: 60%;
+}
+
+#photo58 {
+    max-width: 60%;
+}
+
+
+
+
+
+
+
+#infoDivCompany {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    bottom: 5vh
+
+}
+
+#infoCompany {
+    max-width: 65%;
+    font-size: 3vh;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #infoCompany {
+        min-width: 95%;
+        font-size: 3vh;
+    }
+}
+
+
+
+.space {
+    height: 80px;
+}
+
+#itemCompany {
+    height: 40vh;
+    /* Responsive height */
+    min-width: 70vh;
+    /* Responsive min width */
+    padding: 1vh;
+    /* Responsive padding */
+}
+
+#itemCompany img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+#innerCaruselCompany {
+    display: flex;
+    animation: scroll 400s linear infinite;
+    background: #333333;
+    width: 900%;
+    position: relative;
+    right: 400vw;
+
+   
+}
+
+@media only screen and (max-width: 768px) {
+    #innerCaruselCompany {
+        width:3550%;
+        position: relative;
+        right: 1660vw;
+    }
+
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#caruselCompany {
+    cursor: grab;
+    overflow: hidden;
+
+}
+
+#caruselDivCompany {
+    
+    width: 100%;
+}
+
+#prices {
+    font-size: 5vh;
+    width: 20%;
+color:black
+}
+
+
+#photo45 {
+    width: 50%;
+}
+
+#photo46{
+    max-width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+    #photo46{
+        min-width: 90%;
+    }}

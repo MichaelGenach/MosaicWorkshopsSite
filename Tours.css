@@ -1,0 +1,146 @@
+#mainDivTours {
+    position: absolute;
+    top: 0;
+    background-color: #333333;
+    overflow: hidden;
+    width: 100%;
+}
+
+#textTours {
+    position: relative;
+    top: 80px;
+    font-size: 3vh;
+}
+
+
+.photoDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10vh;
+    
+}
+
+.photoText {
+    color: white;
+    ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .photoText {
+        color: white;
+    font-size: 2.2vh;
+    ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+  }
+
+
+
+
+
+
+#pricesTours {
+    width: 50%;
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #pricesTours {
+        width: 60%;
+        background-color: orange;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 1.8vh;
+    }
+
+    #photo52 , #photo41, #photo197 {
+        min-width: 90%; 
+       
+    }
+
+
+  }
+
+#infoDivTours {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#photo52 , #photo41, #photo197 {
+    max-width: 60%; 
+    max-height: 70vh;
+}
+#photo42{max-width: 40%;
+max-height: 40%;}
+
+.toursTitle{color: white;
+}
+
+
+
+#innerCaruselTours {
+    display: inline-flex;
+    animation: scroll 60s linear infinite;
+    background: #333333;
+   
+}
+
+@media only screen and (max-width: 768px) {
+    #innerCaruselTours {
+        position: relative;
+        right: 240vw;
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-97%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#caruselTours {
+    cursor: grab;
+    overflow: hidden;
+
+}
+
+#caruselDivTours {
+    height: fit-content;
+   
+    
+}
+
+#itemTours {
+    height: 40vh; /* Responsive height */
+    min-width: 50vh; /* Responsive min width */
+    padding: 1vh; /* Responsive padding */
+    
+}
+
+#itemTours img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    
+}
